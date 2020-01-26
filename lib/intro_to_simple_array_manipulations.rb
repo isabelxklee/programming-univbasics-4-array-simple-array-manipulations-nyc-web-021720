@@ -11,6 +11,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.pop
+  array.pop[3][2]
   array.pop(array.length-2)
 end
+
+@dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
