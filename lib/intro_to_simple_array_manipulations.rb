@@ -16,3 +16,7 @@ def pop_with_args(array)
 end
 
 #@dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+
+def using_shift(array)
+  array.shift
+end
